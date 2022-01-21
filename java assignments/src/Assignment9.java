@@ -18,7 +18,7 @@ public class Assignment9 {
     }
 
     public static boolean sentenceChecker(String sentence) {
-        Pattern pattern=Pattern.compile("^[A-Z].*.$");
+        Pattern pattern=Pattern.compile("^[A-Z].*[\\.]$");
         Matcher match =pattern.matcher(sentence);
         return match.matches();
     }
