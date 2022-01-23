@@ -1,3 +1,4 @@
+//time complexity: O(n) space complexity: O(m) where m is 26 always
 public class Assignment2 {
     public static void main(String[] args) {
         checkAlphabetInString("abcdefghijklmnopqrStuvwxyz");
