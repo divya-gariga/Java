@@ -11,14 +11,14 @@ public class Assignment9 {
             if (sentenceChecker(sentence))
                 System.out.println("The given sentence starts with a capital letter and ends with a period.");
             else
-                System.out.println("The given sentence doesn't begin with a capital letter or end with a period");
+                System.out.println("The given sentence doesn't begin either with a capital letter or end with a period");
             System.out.println("enter y or n to continue :");
 
         }while(scan.nextLine().charAt(0)=='y');
     }
 
     public static boolean sentenceChecker(String sentence) {
-        Pattern pattern=Pattern.compile("^[A-Z].*.$");
+        Pattern pattern = Pattern.compile("^[A-Z].*[\\.]$");
         Matcher match =pattern.matcher(sentence);
         return match.matches();
     }
