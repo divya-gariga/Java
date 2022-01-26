@@ -1,13 +1,12 @@
 package com.zemoso.assignment7.accesscontrol_5;
 
 public class OuterClass {
-    public OuterClass() {
-        System.out.println("Outer class");
-    }
+
+    int x=10;
     public class InnerClass{
-        public InnerClass()
-        {
-            System.out.println("Innerclass of outerclass");
+        int y=20;
+        public void print(){
+            System.out.println("Inner class of outer class");
         }
     }
 }
