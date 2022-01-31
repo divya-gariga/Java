@@ -56,8 +56,6 @@ public class VampireNumber {
                             int combinedNum = (i * (int) Math.pow(10, length / 2) )+ j;
                              if(equal(frequencyOfNumber,combinedNum))
                                  return true;
-                             else
-                                 continue;
                     }
                 }
             }

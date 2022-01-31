@@ -12,5 +12,7 @@ public class Assignment6_3 {
         Assignment6_3 obj1 = new Assignment6_3("Hi");
         Assignment6_3 obj2=new Assignment6_3("Hello");
 
+        construction[0]=obj1;
+
     }
 }
