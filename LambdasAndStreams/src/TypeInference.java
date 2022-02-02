@@ -1,5 +1,5 @@
 interface Greeting{
-    public String sayHello(String name);
+    String sayHello(String name);
 }
 
 public class TypeInference {
